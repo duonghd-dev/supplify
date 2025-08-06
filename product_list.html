@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sản phẩm đồ uống</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img src="./img/logo.png" alt="Logo" />
+        </a>
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="product_list.html">Product</a>
+          <a href="#">Contact</a>
+        </nav>
+        <div class="icons">
+          <input class="input-search" type="text" />
+          <button class="icon-btn" id="search-btn" aria-label="Search">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              />
+            </svg>
+          </button>
+          <button class="icon-btn" id="cart-btn" aria-label="Cart">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.182 1.706.707 1.706H17m0-11V9a2 2 0 002 2h2"
+              />
+            </svg>
+          </button>
+          <button class="icon-btn" id="user-btn" aria-label="User">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <div class="container content-grid">
+        <!-- Sidebar for Filters -->
+        <aside class="sidebar">
+          <div class="breadcrumb">
+            <a href="index.html">Home</a>
+            <span class="breadcrumb-separator">></span>
+            <a href="product_list.html">Product</a>
+          </div>
+          <div class="filter-group">
+            <h3 class="filter-heading">Danh mục</h3>
+            <ul>
+              <li>
+                <label
+                  ><input type="checkbox" /><span>Personal Hygiene</span></label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" /><span>Paper & Towels</span></label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" /><span>Disposable Items</span></label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" /><span
+                    >Cleaning & Sanitation Supplies</span
+                  ></label
+                >
+              </li>
+              <li>
+                <label><input type="checkbox" /><span>Laundry</span></label>
+              </li>
+            </ul>
+            <h3 class="filter-heading">Combo</h3>
+            <ul>
+              <li>
+                <label
+                  ><input type="checkbox" /><span
+                    >Combo vệ sinh cá nhân (7 món)</span
+                  ></label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" /><span
+                    >Combo tắm gội rửa tay (3 món)</span
+                  ></label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" /><span
+                    >Combo giấy tiêu dùng (2 món)</span
+                  ></label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" /><span
+                    >Combo vệ sinh phòng (6 món)</span
+                  ></label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" /><span
+                    >Combo tiện ích bổ sung (4 món)</span
+                  ></label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" /><span
+                    >Sản phẩm thân thiện môi trường</span
+                  ></label
+                >
+              </li>
+            </ul>
+          </div>
+        </aside>
+
+        <!-- Product Grid -->
+        <div class="product-grid"></div>
+      </div>
+    </main>
+
+    <!-- Login Modal -->
+    <div class="modal" id="login-modal">
+      <div class="login-container">
+        <div class="logo">
+          <a href="#">
+            <img src="./img/logo.png" alt="Classic Fine Foods Logo" />
+          </a>
+        </div>
+        <form class="login-form" id="loginForm">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="ccf@example.com"
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Your password here"
+            />
+            <a href="#" class="forgot-password">Forgot your password?</a>
+          </div>
+          <button type="submit" class="sign-in-btn">Sign in</button>
+        </form>
+        <div class="create-account">
+          <a href="#">No account? Create one here</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cart Panel -->
+    <div class="cart-panel" id="cart-panel">
+      <div class="cart-content">
+        <h2>Giỏ hàng</h2>
+        <div class="cart-items"></div>
+        <div class="cart-total"></div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="logo">
+          <img src="./img/logo.png" alt="Classic Fine Foods Logo" />
+          <p class="footer-subtitle">FINE FOODS</p>
+        </div>
+        <ul class="footer-nav">
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="footer-bottom">
+          <a href="#">iDuong - 31-07-2025</a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
