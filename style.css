@@ -34,7 +34,6 @@ body {
 .container {
   max-width: 1400px;
   margin: 0 auto;
-
 }
 
 a {
@@ -296,7 +295,7 @@ ul {
 
 .product-image {
   width: 100%;
-  height: auto;
+  height: 200px;
   object-fit: cover;
   border-radius: 0.375rem;
 }
@@ -599,7 +598,7 @@ ul {
 /* Hero Section */
 .hero-section {
   color: var(--text-color-dark);
-  padding: 60px 0 60px;
+  padding: 50px 0 50px;
   position: relative;
   overflow: hidden;
 }

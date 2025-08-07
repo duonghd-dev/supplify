@@ -3,14 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Sản phẩm đồ uống</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <!-- Header Section -->
@@ -20,60 +21,25 @@
           <img src="./img/logo.png" alt="Logo" />
         </a>
         <nav class="nav">
-          <a href="index.html">Home</a>
-          <a href="product_list.html">Product</a>
-          <a href="#">Contact</a>
+          <a href="index.html">Trang chủ</a>
+          <a href="product_list.html">Sản phẩm</a>
+          <a href="contact.html">Liên hệ</a>
         </nav>
         <div class="icons">
           <input class="input-search" type="text" />
-          <button class="icon-btn" id="search-btn" aria-label="Search">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-              />
-            </svg>
+          <button class="icon-btn" id="search-btn" aria-label="Tìm kiếm">
+            <i class="fa-solid fa-magnifying-glass"></i>
           </button>
-          <button class="icon-btn" id="cart-btn" aria-label="Cart">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.182 1.706.707 1.706H17m0-11V9a2 2 0 002 2h2"
-              />
-            </svg>
+
+          <button class="icon-btn" id="cart-btn" aria-label="Giỏ hàng">
+            <i class="fa-solid fa-cart-plus"></i>
           </button>
-          <button class="icon-btn" id="user-btn" aria-label="User">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-              />
-            </svg>
-          </button>
+
+          <button
+            class="icon-btn"
+            id="user-btn"
+            aria-label="Tài khoản"
+          ></button>
         </div>
       </div>
     </header>
@@ -84,37 +50,37 @@
         <!-- Sidebar for Filters -->
         <aside class="sidebar">
           <div class="breadcrumb">
-            <a href="index.html">Home</a>
+            <a href="index.html">Trang chủ</a>
             <span class="breadcrumb-separator">></span>
-            <a href="product_list.html">Product</a>
+            <a href="product_list.html">Sản phẩm</a>
           </div>
           <div class="filter-group">
             <h3 class="filter-heading">Danh mục</h3>
             <ul>
               <li>
                 <label
-                  ><input type="checkbox" /><span>Personal Hygiene</span></label
+                  ><input type="checkbox" /><span>Vệ sinh cá nhân</span></label
                 >
               </li>
               <li>
                 <label
-                  ><input type="checkbox" /><span>Paper & Towels</span></label
+                  ><input type="checkbox" /><span>Giấy & Khăn giấy</span></label
                 >
               </li>
               <li>
                 <label
-                  ><input type="checkbox" /><span>Disposable Items</span></label
+                  ><input type="checkbox" /><span>Đồ dùng một lần</span></label
                 >
               </li>
               <li>
                 <label
                   ><input type="checkbox" /><span
-                    >Cleaning & Sanitation Supplies</span
+                    >Dụng cụ & Hóa chất vệ sinh</span
                   ></label
                 >
               </li>
               <li>
-                <label><input type="checkbox" /><span>Laundry</span></label>
+                <label><input type="checkbox" /><span>Giặt là</span></label>
               </li>
             </ul>
             <h3 class="filter-heading">Combo</h3>
@@ -189,19 +155,19 @@
             />
           </div>
           <div class="form-group">
-            <label for="password">Password</label>
+            <label for="password">Mật khẩu</label>
             <input
               type="password"
               id="password"
               name="password"
-              placeholder="Your password here"
+              placeholder="Nhập mật khẩu của bạn"
             />
-            <a href="#" class="forgot-password">Forgot your password?</a>
+            <a href="#" class="forgot-password">Quên mật khẩu?</a>
           </div>
-          <button type="submit" class="sign-in-btn">Sign in</button>
+          <button type="submit" class="sign-in-btn">Đăng nhập</button>
         </form>
         <div class="create-account">
-          <a href="#">No account? Create one here</a>
+          <a href="#">Chưa có tài khoản? Đăng ký tại đây</a>
         </div>
       </div>
     </div>
@@ -223,8 +189,8 @@
           <p class="footer-subtitle">FINE FOODS</p>
         </div>
         <ul class="footer-nav">
-          <li><a href="#">Product</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#">Sản phẩm</a></li>
+          <li><a href="#">Liên hệ</a></li>
         </ul>
         <div class="footer-bottom">
           <a href="#">iDuong - 31-07-2025</a>

@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 1,
       title: "Nước rửa tay",
       category: "Personal Hygiene",
-      price: 15000,
+      price: 0,
       description:
         "Làm sạch và khử khuẩn hiệu quả, dịu nhẹ với da tay, hương thơm dễ chịu, phù hợp dùng trong khách sạn và homestay",
       image:
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 2,
       title: "Dầu gội",
       category: "Personal Hygiene",
-      price: 18000,
+      price: 0,
       description:
         "Dầu gội mượt tóc, sạch gàu, phù hợp nhiều loại tóc, dạng gói tiện dụng cho khách sạn",
       image:
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 3,
       title: "Sữa tắm",
       category: "Personal Hygiene",
-      price: 22000,
+      price: 0,
       description:
         "Sữa tắm dịu nhẹ, dưỡng ẩm da, tạo bọt tốt, thích hợp dùng hằng ngày cho khách lưu trú",
       image:
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 4,
       title: "Bàn chải + kem đánh răng",
       category: "Personal Hygiene",
-      price: 22000,
+      price: 0,
       description:
         "Combo tiện lợi dùng một lần, đảm bảo vệ sinh và tiện lợi cho khách lưu trú",
       image:
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 5,
       title: "Mũ tắm",
       category: "Personal Hygiene",
-      price: 22000,
+      price: 0,
       description:
         "Mũ nilon co giãn tốt, không thấm nước, phù hợp cho 1 lần sử dụng tại khách sạn",
       image:
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 6,
       title: "Lược nhựa",
       category: "Personal Hygiene",
-      price: 22000,
+      price: 0,
       description:
         "Lược nhựa gọn nhẹ, dễ sử dụng, thiết kế đơn giản, sạch sẽ, tiện cho khách đi du lịch",
       image:
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 7,
       title: "Dao cạo, keo cạo",
       category: "Personal Hygiene",
-      price: 22000,
+      price: 0,
       description:
         "Bộ dao cạo dùng 1 lần kèm kem cạo râu mini, an toàn và tiện dụng cho nam giới",
       image:
@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 8,
       title: "Tăm bông",
       category: "Personal Hygiene",
-      price: 22000,
+      price: 0,
       description:
         "Tăm bông tiệt trùng, mềm mại, dùng vệ sinh cá nhân hằng ngày, đóng gói sạch sẽ",
       image:
@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 9,
       title: "Bông tẩy trang",
       category: "Personal Hygiene",
-      price: 22000,
+      price: 0,
       description:
         "Miếng bông cotton mềm mịn, thấm hút tốt, phù hợp cho tẩy trang hoặc vệ sinh da",
       image:
@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 10,
       title: "Dây chun buộc tóc",
       category: "Personal Hygiene",
-      price: 22000,
+      price: 0,
       description:
         "Dây buộc tóc đơn giản, co giãn tốt, sử dụng linh hoạt cho tóc dài",
       image:
@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 11,
       title: "Giấy vệ sinh",
       category: "Paper & Towels",
-      price: 22000,
+      price: 0,
       description:
         "Giấy vệ sinh 2 lớp mềm mại, độ dai cao, an toàn cho da nhạy cảm",
       image:
@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 12,
       title: "Khăn giấy",
       category: "Paper & Towels",
-      price: 22000,
+      price: 0,
       description:
         "Khăn giấy rút/giấy gấp mềm mịn, tiện lợi khi ăn uống hoặc vệ sinh cá nhân",
       image:
@@ -138,7 +138,7 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 13,
       title: "Túi giặt là",
       category: "Laundry",
-      price: 22000,
+      price: 0,
       description:
         "Túi giặt vải lưới/PE sạch sẽ, giúp lưu giữ quần áo khách trong quá trình giặt là",
       image:
@@ -149,7 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 14,
       title: "Dép dùng 1 lần",
       category: "Disposable Items",
-      price: 22000,
+      price: 0,
       description:
         "Dép vải không dệt hoặc xốp tiện lợi, sạch sẽ, dùng trong phòng nghỉ",
       image:
@@ -160,7 +160,7 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 15,
       title: "Nước lau sàn / Tẩy toilet",
       category: "Cleaning & Sanitation Supplies",
-      price: 22000,
+      price: 0,
       description:
         "Dung dịch làm sạch sàn/toilet chuyên dụng, giúp khử mùi và diệt khuẩn hiệu quả",
       image:
@@ -171,7 +171,7 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 16,
       title: "Nước rửa chén",
       category: "Cleaning & Sanitation Supplies",
-      price: 22000,
+      price: 0,
       description:
         "Nước rửa chén trung tính, khử mùi tanh, an toàn cho da tay, thích hợp nhà bếp khách sạn",
       image:
@@ -182,7 +182,7 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 17,
       title: "Khăn lau, giẻ lau",
       category: "Cleaning & Sanitation Supplies",
-      price: 22000,
+      price: 0,
       description:
         "Khăn lau đa năng, bền, thấm hút tốt, dùng vệ sinh phòng, bếp, nhà vệ sinh",
       image:
@@ -193,7 +193,7 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 18,
       title: "Xịt khử mùi phòng",
       category: "Cleaning & Sanitation Supplies",
-      price: 22000,
+      price: 0,
       description:
         "Chai xịt khử mùi hương nhẹ nhàng, khử mùi ẩm mốc, tạo không gian dễ chịu",
       image:
@@ -204,7 +204,7 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 19,
       title: "Găng tay dùng 1 lần",
       category: "Disposable Items",
-      price: 22000,
+      price: 0,
       description:
         "Găng tay nhựa PE/HD trong suốt, tiện lợi cho vệ sinh phòng và chế biến thực phẩm",
       image:
@@ -215,7 +215,7 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 20,
       title: "Túi rác",
       category: "Disposable Items",
-      price: 22000,
+      price: 0,
       description:
         "Túi đựng rác đen/trắng nhiều kích cỡ, dẻo dai, phù hợp các loại thùng rác khách sạn",
       image:
@@ -226,7 +226,7 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 21,
       title: "Khăn tắm",
       category: "Paper & Towels",
-      price: 22000,
+      price: 0,
       description:
         "Khăn cotton mềm mịn, thấm hút tốt, kích thước tiêu chuẩn khách sạn",
       image:
@@ -237,7 +237,7 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 22,
       title: "Khăn mặt",
       category: "Paper & Towels",
-      price: 22000,
+      price: 0,
       description:
         "Khăn cotton nhỏ gọn, dùng cho mặt, thấm hút tốt, dễ giặt và nhanh khô",
       image:
@@ -299,9 +299,9 @@ document.addEventListener("DOMContentLoaded", () => {
             <span class="product-price">${product.price.toLocaleString(
               "vi-VN"
             )} VNĐ</span>
-            <button class="add-to-cart-btn" data-id="${
+            <a href="contact.html" class="add-to-cart-btn" data-id="${
               product.id
-            }">Thêm vào giỏ</button>
+            }">Liên hệ</a>
           </div>
         </div>
       `;
@@ -331,101 +331,101 @@ document.addEventListener("DOMContentLoaded", () => {
     renderProducts(filteredProducts);
   }
 
-  function addToCart(productId) {
-    if (!isLoggedIn) {
-      alert("Vui lòng đăng nhập để thêm sản phẩm vào giỏ hàng!");
-      triggerLoginModal();
-      return;
-    }
+  // function addToCart(productId) {
+  //   if (!isLoggedIn) {
+  //     alert("Vui lòng đăng nhập để thêm sản phẩm vào giỏ hàng!");
+  //     triggerLoginModal();
+  //     return;
+  //   }
 
-    const product = products.find((p) => p.id === parseInt(productId));
-    if (!product) {
-      console.error(`Product with ID ${productId} not found`);
-      return;
-    }
-    const cartItem = cart.find((item) => item.id === parseInt(productId));
+  //   const product = products.find((p) => p.id === parseInt(productId));
+  //   if (!product) {
+  //     console.error(`Product with ID ${productId} not found`);
+  //     return;
+  //   }
+  //   const cartItem = cart.find((item) => item.id === parseInt(productId));
 
-    if (cartItem) {
-      cartItem.quantity += 1;
-    } else {
-      cart.push({ ...product, quantity: 1 });
-    }
+  //   if (cartItem) {
+  //     cartItem.quantity += 1;
+  //   } else {
+  //     cart.push({ ...product, quantity: 1 });
+  //   }
 
-    localStorage.setItem("cart", JSON.stringify(cart));
-    alert(`${product.title} đã được thêm vào giỏ hàng!`);
-  }
+  //   localStorage.setItem("cart", JSON.stringify(cart));
+  //   alert(`${product.title} đã được thêm vào giỏ hàng!`);
+  // }
 
-  function updateCartPanel() {
-    if (!cartPanel) return;
+  // function updateCartPanel() {
+  //   if (!cartPanel) return;
 
-    const totalPrice = cart.reduce(
-      (sum, item) => sum + item.price * item.quantity,
-      0
-    );
-    cartPanel.querySelector(".cart-items").innerHTML =
-      cart.length === 0
-        ? "<p>Giỏ hàng trống!</p>"
-        : cart
-            .map(
-              (item) => `
-      <div class="cart-item">
-        <img src="${
-          item.image
-        }" onerror="this.onerror=null;this.src='https://placehold.co/100x100';" alt="${
-                item.title
-              }" class="cart-item-image">
-        <div class="cart-item-details">
-          <h3>${item.title}</h3>
-          <p class="cart-item-description">${item.description}</p>
-          <div class="quantity-controls">
-            <button class="quantity-btn decrease" data-id="${
-              item.id
-            }">−</button>
-            <span>${item.quantity}</span>
-            <button class="quantity-btn increase" data-id="${
-              item.id
-            }">+</button>
-          </div>
-          <p>Giá: ${(item.price * item.quantity).toLocaleString(
-            "vi-VN"
-          )} VNĐ</p>
-        </div>
-      </div>
-    `
-            )
-            .join("");
-    cartPanel.querySelector(
-      ".cart-total"
-    ).innerHTML = `<h3>Tổng cộng: ${totalPrice.toLocaleString(
-      "vi-VN"
-    )} VNĐ</h3>`;
+  //   const totalPrice = cart.reduce(
+  //     (sum, item) => sum + item.price * item.quantity,
+  //     0
+  //   );
+  //   cartPanel.querySelector(".cart-items").innerHTML =
+  //     cart.length === 0
+  //       ? "<p>Giỏ hàng trống!</p>"
+  //       : cart
+  //           .map(
+  //             (item) => `
+  //     <div class="cart-item">
+  //       <img src="${
+  //         item.image
+  //       }" onerror="this.onerror=null;this.src='https://placehold.co/100x100';" alt="${
+  //               item.title
+  //             }" class="cart-item-image">
+  //       <div class="cart-item-details">
+  //         <h3>${item.title}</h3>
+  //         <p class="cart-item-description">${item.description}</p>
+  //         <div class="quantity-controls">
+  //           <button class="quantity-btn decrease" data-id="${
+  //             item.id
+  //           }">−</button>
+  //           <span>${item.quantity}</span>
+  //           <button class="quantity-btn increase" data-id="${
+  //             item.id
+  //           }">+</button>
+  //         </div>
+  //         <p>Giá: ${(item.price * item.quantity).toLocaleString(
+  //           "vi-VN"
+  //         )} VNĐ</p>
+  //       </div>
+  //     </div>
+  //   `
+  //           )
+  //           .join("");
+  //   cartPanel.querySelector(
+  //     ".cart-total"
+  //   ).innerHTML = `<h3>Tổng cộng: ${totalPrice.toLocaleString(
+  //     "vi-VN"
+  //   )} VNĐ</h3>`;
 
-    document.querySelectorAll(".quantity-btn").forEach((btn) => {
-      btn.addEventListener("click", (e) => {
-        e.stopPropagation();
-        const id = parseInt(btn.dataset.id);
-        const isIncrease = btn.classList.contains("increase");
-        updateCartQuantity(id, isIncrease);
-      });
-    });
-  }
+  //   document.querySelectorAll(".quantity-btn").forEach((btn) => {
+  //     btn.addEventListener("click", (e) => {
+  //       e.stopPropagation();
+  //       const id = parseInt(btn.dataset.id);
+  //       const isIncrease = btn.classList.contains("increase");
+  //       updateCartQuantity(id, isIncrease);
+  //     });
+  //   });
+  // }
 
-  function updateCartQuantity(productId, increase) {
-    const cartItem = cart.find((item) => item.id === productId);
-    if (!cartItem) return;
+  // function updateCartQuantity(productId, increase) {
+  //   const cartItem = cart.find((item) => item.id === productId);
+  //   if (!cartItem) return;
 
-    if (increase) {
-      cartItem.quantity += 1;
-    } else {
-      cartItem.quantity -= 1;
-      if (cartItem.quantity <= 0) {
-        cart = cart.filter((item) => item.id !== productId);
-      }
-    }
+  //   if (increase) {
+  //     cartItem.quantity += 1;
+  //   } else {
+  //     cartItem.quantity -= 1;
+  //     if (cartItem.quantity <= 0) {
+  //       cart = cart.filter((item) => item.id !== productId);
+  //     }
+  //   }
 
-    localStorage.setItem("cart", JSON.stringify(cart));
-    updateCartPanel();
-  }
+  //   localStorage.setItem("cart", JSON.stringify(cart));
+  //   updateCartPanel();
+  // }
 
   function triggerLoginModal() {
     if (!loginModal) return;
