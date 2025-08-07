@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 1,
       title: "Nước rửa tay",
-      category: "Personal Hygiene",
+      category: "Vệ sinh cá nhân",
       price: 0,
       description:
         "Làm sạch và khử khuẩn hiệu quả, dịu nhẹ với da tay, hương thơm dễ chịu, phù hợp dùng trong khách sạn và homestay",
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 2,
       title: "Dầu gội",
-      category: "Personal Hygiene",
+      category: "Vệ sinh cá nhân",
       price: 0,
       description:
         "Dầu gội mượt tóc, sạch gàu, phù hợp nhiều loại tóc, dạng gói tiện dụng cho khách sạn",
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 3,
       title: "Sữa tắm",
-      category: "Personal Hygiene",
+      category: "Vệ sinh cá nhân",
       price: 0,
       description:
         "Sữa tắm dịu nhẹ, dưỡng ẩm da, tạo bọt tốt, thích hợp dùng hằng ngày cho khách lưu trú",
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 4,
       title: "Bàn chải + kem đánh răng",
-      category: "Personal Hygiene",
+      category: "Vệ sinh cá nhân",
       price: 0,
       description:
         "Combo tiện lợi dùng một lần, đảm bảo vệ sinh và tiện lợi cho khách lưu trú",
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 5,
       title: "Mũ tắm",
-      category: "Personal Hygiene",
+      category: "Vệ sinh cá nhân",
       price: 0,
       description:
         "Mũ nilon co giãn tốt, không thấm nước, phù hợp cho 1 lần sử dụng tại khách sạn",
@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 6,
       title: "Lược nhựa",
-      category: "Personal Hygiene",
+      category: "Vệ sinh cá nhân",
       price: 0,
       description:
         "Lược nhựa gọn nhẹ, dễ sử dụng, thiết kế đơn giản, sạch sẽ, tiện cho khách đi du lịch",
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 7,
       title: "Dao cạo, keo cạo",
-      category: "Personal Hygiene",
+      category: "Vệ sinh cá nhân",
       price: 0,
       description:
         "Bộ dao cạo dùng 1 lần kèm kem cạo râu mini, an toàn và tiện dụng cho nam giới",
@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 8,
       title: "Tăm bông",
-      category: "Personal Hygiene",
+      category: "Vệ sinh cá nhân",
       price: 0,
       description:
         "Tăm bông tiệt trùng, mềm mại, dùng vệ sinh cá nhân hằng ngày, đóng gói sạch sẽ",
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 9,
       title: "Bông tẩy trang",
-      category: "Personal Hygiene",
+      category: "Vệ sinh cá nhân",
       price: 0,
       description:
         "Miếng bông cotton mềm mịn, thấm hút tốt, phù hợp cho tẩy trang hoặc vệ sinh da",
@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 10,
       title: "Dây chun buộc tóc",
-      category: "Personal Hygiene",
+      category: "Vệ sinh cá nhân",
       price: 0,
       description:
         "Dây buộc tóc đơn giản, co giãn tốt, sử dụng linh hoạt cho tóc dài",
@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 11,
       title: "Giấy vệ sinh",
-      category: "Paper & Towels",
+      category: "Giấy & Khăn giấy",
       price: 0,
       description:
         "Giấy vệ sinh 2 lớp mềm mại, độ dai cao, an toàn cho da nhạy cảm",
@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 12,
       title: "Khăn giấy",
-      category: "Paper & Towels",
+      category: "Giấy & Khăn giấy",
       price: 0,
       description:
         "Khăn giấy rút/giấy gấp mềm mịn, tiện lợi khi ăn uống hoặc vệ sinh cá nhân",
@@ -137,7 +137,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 13,
       title: "Túi giặt là",
-      category: "Laundry",
+      category: "Giặt là",
       price: 0,
       description:
         "Túi giặt vải lưới/PE sạch sẽ, giúp lưu giữ quần áo khách trong quá trình giặt là",
@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 14,
       title: "Dép dùng 1 lần",
-      category: "Disposable Items",
+      category: "Đồ dùng một lần",
       price: 0,
       description:
         "Dép vải không dệt hoặc xốp tiện lợi, sạch sẽ, dùng trong phòng nghỉ",
@@ -159,7 +159,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 15,
       title: "Nước lau sàn / Tẩy toilet",
-      category: "Cleaning & Sanitation Supplies",
+      category: "Dụng cụ & Hóa chất vệ sinh",
       price: 0,
       description:
         "Dung dịch làm sạch sàn/toilet chuyên dụng, giúp khử mùi và diệt khuẩn hiệu quả",
@@ -170,7 +170,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 16,
       title: "Nước rửa chén",
-      category: "Cleaning & Sanitation Supplies",
+      category: "Dụng cụ & Hóa chất vệ sinh",
       price: 0,
       description:
         "Nước rửa chén trung tính, khử mùi tanh, an toàn cho da tay, thích hợp nhà bếp khách sạn",
@@ -181,7 +181,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 17,
       title: "Khăn lau, giẻ lau",
-      category: "Cleaning & Sanitation Supplies",
+      category: "Dụng cụ & Hóa chất vệ sinh",
       price: 0,
       description:
         "Khăn lau đa năng, bền, thấm hút tốt, dùng vệ sinh phòng, bếp, nhà vệ sinh",
@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 18,
       title: "Xịt khử mùi phòng",
-      category: "Cleaning & Sanitation Supplies",
+      category: "Dụng cụ & Hóa chất vệ sinh",
       price: 0,
       description:
         "Chai xịt khử mùi hương nhẹ nhàng, khử mùi ẩm mốc, tạo không gian dễ chịu",
@@ -203,7 +203,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 19,
       title: "Găng tay dùng 1 lần",
-      category: "Disposable Items",
+      category: "Đồ dùng một lần",
       price: 0,
       description:
         "Găng tay nhựa PE/HD trong suốt, tiện lợi cho vệ sinh phòng và chế biến thực phẩm",
@@ -214,7 +214,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 20,
       title: "Túi rác",
-      category: "Disposable Items",
+      category: "Đồ dùng một lần",
       price: 0,
       description:
         "Túi đựng rác đen/trắng nhiều kích cỡ, dẻo dai, phù hợp các loại thùng rác khách sạn",
@@ -225,7 +225,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 21,
       title: "Khăn tắm",
-      category: "Paper & Towels",
+      category: "Giấy & Khăn giấy",
       price: 0,
       description:
         "Khăn cotton mềm mịn, thấm hút tốt, kích thước tiêu chuẩn khách sạn",
@@ -236,7 +236,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 22,
       title: "Khăn mặt",
-      category: "Paper & Towels",
+      category: "Giấy & Khăn giấy",
       price: 0,
       description:
         "Khăn cotton nhỏ gọn, dùng cho mặt, thấm hút tốt, dễ giặt và nhanh khô",
