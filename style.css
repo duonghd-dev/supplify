@@ -671,58 +671,184 @@ ul {
 }
 
 /* Who We Are Section */
+/* Who We Are Section */
 .who-we-are-section {
-  background-color: var(--secondary-bg-color);
+  background-color: var(--secondary-bg-color, #f8f8f8);
   padding: 40px 0;
 }
 
 .who-we-are-container {
   max-width: 1400px;
+  margin: 0 auto;
   display: flex;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
   justify-content: space-between;
   align-items: flex-start;
-  gap: 2rem;
-  padding: 40px 0;
+  gap: 2rem; /* Reduced gap for better spacing */
+  padding: 40px 15px; /* Adjusted padding */
 }
 
 .who-we-are-gallery {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem; /* Reduced gap for mobile */
+  flex: 1;
+  min-width: 0; /* Prevent overflow */
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-}
-
-.logo-wrapper img {
-  width: 200px;
-  height: auto;
+  gap: 1rem;
+  flex: 1;
 }
 
 .column-center {
   justify-content: center;
   align-items: center;
-  padding: 1rem;
 }
 
 .column img {
-  width: 200px;
-  height: 260px;
+  width: 100%;
+  max-width: 200px; /* Limit max width */
+  height: auto;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 8px; /* Add slight rounding for aesthetics */
+}
+
+.logo-wrapper img {
+  width: 100%;
+  max-width: 150px; /* Smaller logo for consistency */
+  height: auto;
+  object-fit: contain;
 }
 
 .who-we-are-content {
-  max-width: 500px;
+  flex: 1;
+  min-width: 0; /* Prevent overflow */
+  max-width: 600px; /* Slightly wider for readability */
 }
 
 .content {
   text-align: justify;
-  color: var(--content-color-dark);
+  color: var(--content-color-dark, #000);
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
+.section-heading {
+  font-family: var(--font-heading, "Quicksand", sans-serif);
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--text-color-dark, #000);
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.section-heading::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background-color: var(--accent-color, #5dba92);
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  border: 2px solid;
+  border-radius: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: var(--font-body, "Quicksand", sans-serif);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border-color: var(--accent-color, #5dba92);
+  color: var(--accent-color, #5dba92);
+}
+
+.btn-secondary:hover {
+  background-color: var(--accent-color, #5dba92);
+  color: var(--button-text-light, #fff);
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .who-we-are-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 15px;
+  }
+
+  .who-we-are-gallery {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .column {
+    align-items: center;
+  }
+
+  .column img,
+  .logo-wrapper img {
+    max-width: 250px; /* Larger images on tablets */
+  }
+
+  .who-we-are-content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .content {
+    text-align: center; /* Center text for better mobile readability */
+  }
+
+  .section-heading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .who-we-are-section {
+    padding: 20px 0;
+  }
+
+  .who-we-are-container {
+    padding: 20px 10px;
+  }
+
+  .who-we-are-gallery {
+    gap: 0.5rem;
+  }
+
+  .column img,
+  .logo-wrapper img {
+    max-width: 200px; /* Smaller images on mobile */
+  }
+
+  .section-heading {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+
+  .content {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
 /* Solution Section */
 .solution-section {
   padding: 60px 0;
@@ -923,21 +1049,7 @@ ul {
     order: -1;
     margin-bottom: 30px;
   }
-  .who-we-are-container {
-    flex-direction: column;
-    gap: 2rem;
-  }
-  .who-we-are-gallery {
-    max-width: 100%;
-    margin-bottom: 20px;
-  }
-  .who-we-are-content .section-heading {
-    text-align: center;
-  }
-  .who-we-are-content .section-heading::after {
-    left: 50%;
-    transform: translateX(-50%);
-  }
+
   .solution-grid,
   .values-grid,
   .contact-cards-grid {
