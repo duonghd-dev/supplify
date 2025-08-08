@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 1,
       title: "Nước rửa tay",
       category: "Vệ sinh cá nhân",
-      price: 0,
       description:
         "Làm sạch và khử khuẩn hiệu quả, dịu nhẹ với da tay, hương thơm dễ chịu, phù hợp dùng trong khách sạn và homestay",
       image:
@@ -17,7 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 2,
       title: "Dầu gội",
       category: "Vệ sinh cá nhân",
-      price: 0,
       description:
         "Dầu gội mượt tóc, sạch gàu, phù hợp nhiều loại tóc, dạng gói tiện dụng cho khách sạn",
       image:
@@ -28,7 +26,6 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 3,
       title: "Sữa tắm",
       category: "Vệ sinh cá nhân",
-      price: 0,
       description:
         "Sữa tắm dịu nhẹ, dưỡng ẩm da, tạo bọt tốt, thích hợp dùng hằng ngày cho khách lưu trú",
       image:
@@ -39,18 +36,16 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 4,
       title: "Bàn chải + kem đánh răng",
       category: "Vệ sinh cá nhân",
-      price: 0,
       description:
         "Combo tiện lợi dùng một lần, đảm bảo vệ sinh và tiện lợi cho khách lưu trú",
       image:
-        "https://media.istockphoto.com/id/1160154544/vi/anh/b%C3%A0n-ch%E1%BA%A3i-%C4%91%C3%A1nh-r%C4%83ng-b%E1%BA%B1ng-tre-v%E1%BB%9Bi-kem-%C4%91%C3%A1nh-r%C4%83ng-tr%C3%AAn-n%E1%BB%81n-m%C3%A0u-xanh.jpg?s=612x612&w=0&k=20&c=kvlJQbyOtmpjYNgiCGwPGvbDho-K0ztx6fBePf95Kxc=",
+        "https://plus.unsplash.com/premium_photo-1736435137357-d861ad57787c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8VG9vdGhicnVzaCUyMCUyQiUyMHRvb3RocGFzdGUlMjBtb2NrdXB8ZW58MHwwfDB8fHww",
       combo: "Combo vệ sinh cá nhân (7 món)",
     },
     {
       id: 5,
       title: "Mũ tắm",
       category: "Vệ sinh cá nhân",
-      price: 0,
       description:
         "Mũ nilon co giãn tốt, không thấm nước, phù hợp cho 1 lần sử dụng tại khách sạn",
       image:
@@ -61,7 +56,6 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 6,
       title: "Lược nhựa",
       category: "Vệ sinh cá nhân",
-      price: 0,
       description:
         "Lược nhựa gọn nhẹ, dễ sử dụng, thiết kế đơn giản, sạch sẽ, tiện cho khách đi du lịch",
       image:
@@ -72,7 +66,6 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 7,
       title: "Dao cạo, keo cạo",
       category: "Vệ sinh cá nhân",
-      price: 0,
       description:
         "Bộ dao cạo dùng 1 lần kèm kem cạo râu mini, an toàn và tiện dụng cho nam giới",
       image:
@@ -83,7 +76,6 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 8,
       title: "Tăm bông",
       category: "Vệ sinh cá nhân",
-      price: 0,
       description:
         "Tăm bông tiệt trùng, mềm mại, dùng vệ sinh cá nhân hằng ngày, đóng gói sạch sẽ",
       image:
@@ -94,7 +86,6 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 9,
       title: "Bông tẩy trang",
       category: "Vệ sinh cá nhân",
-      price: 0,
       description:
         "Miếng bông cotton mềm mịn, thấm hút tốt, phù hợp cho tẩy trang hoặc vệ sinh da",
       image:
@@ -105,29 +96,26 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 10,
       title: "Dây chun buộc tóc",
       category: "Vệ sinh cá nhân",
-      price: 0,
       description:
         "Dây buộc tóc đơn giản, co giãn tốt, sử dụng linh hoạt cho tóc dài",
       image:
-        "https://media.istockphoto.com/id/912883058/vi/anh/ban-nh%E1%BA%A1c-t%C3%B3c.jpg?s=612x612&w=0&k=20&c=HtTegg0BxeZJhCsa1XQR1x5Xs16LjvFHp9Si7VzFIcM=",
+        "https://media.istockphoto.com/id/1390259122/vi/anh/b%E1%BB%99-s%C6%B0u-t%E1%BA%ADp-d%C3%A2y-thun-l%E1%BB%A5a-h%E1%BB%A3p-th%E1%BB%9Di-trang-scrunchies-tr%C3%AAn-n%E1%BB%81n-tr%E1%BA%AFng-ph%E1%BB%A5-ki%E1%BB%87n-diy-v%C3%A0-ki%E1%BB%83u-t%C3%B3c-kh%C3%A1i.jpg?s=612x612&w=0&k=20&c=IW1rn8dCIfc5pyd80gBeUSlVkTOIkvrw1piBAYsAMt0=",
       combo: "Combo vệ sinh cá nhân (7 món)",
     },
     {
       id: 11,
       title: "Giấy vệ sinh",
       category: "Giấy & Khăn giấy",
-      price: 0,
       description:
         "Giấy vệ sinh 2 lớp mềm mại, độ dai cao, an toàn cho da nhạy cảm",
       image:
-        "https://media.istockphoto.com/id/186881699/vi/anh/gi%E1%BA%A5y-d%C3%B9ng-m%E1%BB%99t-l%E1%BA%A7n.jpg?s=612x612&w=0&k=20&c=WRjhXAuJ-IJP2s1TtzSvO2AxZmeHf5h5N1V052f0fmM=",
+        "https://media.istockphoto.com/id/499224059/vi/anh/ch%E1%BB%93ng-cu%E1%BB%99n-gi%E1%BA%A5y-tr%E1%BA%AFng.jpg?s=612x612&w=0&k=20&c=yZAGE9Bm9momqKU-RO86JR42_sjzVmNrEb2X0q6784I=",
       combo: "Combo giấy tiêu dùng (2 món)",
     },
     {
       id: 12,
       title: "Khăn giấy",
       category: "Giấy & Khăn giấy",
-      price: 0,
       description:
         "Khăn giấy rút/giấy gấp mềm mịn, tiện lợi khi ăn uống hoặc vệ sinh cá nhân",
       image:
@@ -138,110 +126,100 @@ document.addEventListener("DOMContentLoaded", () => {
       id: 13,
       title: "Túi giặt là",
       category: "Giặt là",
-      price: 0,
       description:
         "Túi giặt vải lưới/PE sạch sẽ, giúp lưu giữ quần áo khách trong quá trình giặt là",
       image:
-        "https://media.istockphoto.com/id/1483917114/vi/anh/th%C3%A0nh-ph%E1%BA%A7n-ph%E1%BB%A5-ki%E1%BB%87n-spa-%C4%91%E1%BA%B7t-trong-kh%C3%A1ch-s%E1%BA%A1n-spa-ban-ng%C3%A0y-trung-t%C3%A2m-ch%C4%83m-s%C3%B3c-s%E1%BB%A9c-kh%E1%BB%8Fe-s%E1%BA%AFc-%C4%91%E1%BA%B9p.jpg?s=612x612&w=0&k=20&c=EObMfJphlITXfj2amNxmB2-QUmiN0WWeu1Igc0KUw8k=",
+        "https://media.istockphoto.com/id/2165250042/vi/anh/hospitality-hotel-laundry-service-room-staff-bringling-laundry-bag-and-clean-clothes-in-the.jpg?s=612x612&w=0&k=20&c=fVYMkeXGX-fQ_d9KfuOpivKTAQ7XLZMWn5-ypNAPJR0=",
       combo: "Combo tiện ích bổ sung (4 món)",
     },
     {
       id: 14,
       title: "Dép dùng 1 lần",
       category: "Đồ dùng một lần",
-      price: 0,
       description:
         "Dép vải không dệt hoặc xốp tiện lợi, sạch sẽ, dùng trong phòng nghỉ",
       image:
-        "https://media.istockphoto.com/id/91002713/vi/anh/kh%C4%83n-trong-gi%E1%BB%8F.jpg?s=612x612&w=0&k=20&c=tNcOnG2s853rlcnrgjCqLsFoNPIGCa2JBN2ZqSDh15c=",
+        "https://media.istockphoto.com/id/1761596606/vi/anh/d%C3%A9p-d%C3%B9ng-m%E1%BB%99t-l%E1%BA%A7n-cho-kh%C3%A1ch-s%E1%BA%A1n.jpg?s=612x612&w=0&k=20&c=ZIFdTPGf-L8M_Vzu1D2ikL7V-k0gTCp3CLpmmSxu4Eg=",
       combo: "Combo tiện ích bổ sung (4 món)",
     },
     {
       id: 15,
       title: "Nước lau sàn / Tẩy toilet",
       category: "Dụng cụ & Hóa chất vệ sinh",
-      price: 0,
       description:
         "Dung dịch làm sạch sàn/toilet chuyên dụng, giúp khử mùi và diệt khuẩn hiệu quả",
       image:
-        "https://media.istockphoto.com/id/1761596606/vi/anh/d%C3%A9p-d%C3%B9ng-m%E1%BB%99t-l%E1%BA%A7n-cho-kh%C3%A1ch-s%E1%BA%A1n.jpg?s=612x612&w=0&k=20&c=ZIFdTPGf-L8M_Vzu1D2ikL7V-k0gTCp3CLpmmSxu4Eg=",
+        "https://media.istockphoto.com/id/875647346/vi/anh/s%E1%BA%A3n-ph%E1%BA%A9m-l%C3%A0m-s%E1%BA%A1ch-tr%E1%BB%91ng-tr%C3%AAn-m%C3%A0u-tr%E1%BA%AFng.jpg?s=612x612&w=0&k=20&c=BruCFwJvxHRivWuFAaZIuZwq2iqZJ5U9xrXD88jzoVE=",
       combo: "Combo vệ sinh phòng (6 món)",
     },
     {
       id: 16,
       title: "Nước rửa chén",
       category: "Dụng cụ & Hóa chất vệ sinh",
-      price: 0,
       description:
         "Nước rửa chén trung tính, khử mùi tanh, an toàn cho da tay, thích hợp nhà bếp khách sạn",
       image:
-        "https://media.istockphoto.com/id/1761596606/vi/anh/d%C3%A9p-d%C3%B9ng-m%E1%BB%99t-l%E1%BA%A7n-cho-kh%C3%A1ch-s%E1%BA%A1n.jpg?s=612x612&w=0&k=20&c=ZIFdTPGf-L8M_Vzu1D2ikL7V-k0gTCp3CLpmmSxu4Eg=",
+        "https://media.istockphoto.com/id/2194328699/vi/anh/mockup-chai-m%C3%A0u-n%C3%A2u-cho-ch%E1%BA%A5t-t%E1%BA%A9y-r%E1%BB%ADa-b%C3%A1t-%C4%91%C4%A9a-t%E1%BB%B1-nhi%C3%AAn-trong-nh%C3%A0-b%E1%BA%BFp.jpg?s=612x612&w=0&k=20&c=SMpqSo2r41_N5bBebqxTzgDzugxcdntsl-gaRLm_UG0=",
       combo: "Combo vệ sinh phòng (6 món)",
     },
     {
       id: 17,
       title: "Khăn lau, giẻ lau",
       category: "Dụng cụ & Hóa chất vệ sinh",
-      price: 0,
       description:
         "Khăn lau đa năng, bền, thấm hút tốt, dùng vệ sinh phòng, bếp, nhà vệ sinh",
       image:
-        "https://media.istockphoto.com/id/1310416597/vi/anh/g%C4%83ng-tay-cao-su-b%E1%BA%A3o-v%E1%BB%87-virus-corona-virus-corona-b%E1%BB%87nh-y-t%E1%BA%BF-v%E1%BB%87-sinh-s%E1%BB%A3c-kh%E1%BB%8Fe.jpg?s=612x612&w=0&k=20&c=ZyE9vdItUllz8Aso9oUMwGfJW3tY8_WljNY9KxCRHvg=",
+        "https://media.istockphoto.com/id/182172008/vi/anh/kh%C4%83n-t%E1%BA%AFm.jpg?s=612x612&w=0&k=20&c=bR87skATrcOPjAOPDIO5Yn4fvNG_l1huo7bFnlrLSWY=",
       combo: "Combo vệ sinh phòng (6 món)",
     },
     {
       id: 18,
       title: "Xịt khử mùi phòng",
       category: "Dụng cụ & Hóa chất vệ sinh",
-      price: 0,
       description:
         "Chai xịt khử mùi hương nhẹ nhàng, khử mùi ẩm mốc, tạo không gian dễ chịu",
       image:
-        "https://media.istockphoto.com/id/173889659/vi/anh/cu%E1%BB%99n-t%C3%BAi-r%C3%A1c.jpg?s=612x612&w=0&k=20&c=2DrYCBY5J0zFHAe6BZ3BuNDRiteIKUm0loiFg7clfeE=",
+        "https://media.istockphoto.com/id/2178059195/vi/anh/chai-phun-k%C3%ADch-ho%E1%BA%A1t-m%E1%BB%B9-ph%E1%BA%A9m-m%C3%A0u-n%C3%A2u-v%E1%BB%9Bi-mockup-nh%C3%A3n-tr%E1%BB%91ng.jpg?s=612x612&w=0&k=20&c=h9y5-Z6B3Ynpi1DIkHWEevVTtG5CJ_quYRdtOCPFtrc=",
       combo: "Combo vệ sinh phòng (6 món)",
     },
     {
       id: 19,
       title: "Găng tay dùng 1 lần",
       category: "Đồ dùng một lần",
-      price: 0,
       description:
         "Găng tay nhựa PE/HD trong suốt, tiện lợi cho vệ sinh phòng và chế biến thực phẩm",
       image:
-        "https://media.istockphoto.com/id/875647346/vi/anh/s%E1%BA%A3n-ph%E1%BA%A9m-l%C3%A0m-s%E1%BA%A1ch-tr%E1%BB%91ng-tr%C3%AAn-m%C3%A0u-tr%E1%BA%AFng.jpg?s=612x612&w=0&k=20&c=BruCFwJvxHRivWuFAaZIuZwq2iqZJ5U9xrXD88jzoVE=",
+        "https://media.istockphoto.com/id/1310416597/vi/anh/g%C4%83ng-tay-cao-su-b%E1%BA%A3o-v%E1%BB%87-virus-corona-virus-corona-b%E1%BB%87nh-y-t%E1%BA%BF-v%E1%BB%87-sinh-s%E1%BB%A9c-kh%E1%BB%8Fe.jpg?s=612x612&w=0&k=20&c=ZyE9vdItUllz8Aso9oUMwGfJW3tY8_WljNY9KxCRHvg=",
       combo: "Combo vệ sinh phòng (6 món)",
     },
     {
       id: 20,
       title: "Túi rác",
       category: "Đồ dùng một lần",
-      price: 0,
       description:
         "Túi đựng rác đen/trắng nhiều kích cỡ, dẻo dai, phù hợp các loại thùng rác khách sạn",
       image:
-        "https://media.istockphoto.com/id/2194328699/vi/anh/mockup-chai-m%C3%A0u-n%C3%A2u-cho-ch%E1%BA%A5t-t%E1%BA%A9y-r%E1%BB%ADa-b%C3%A1t-%C4%91%C4%A9a-t%E1%BB%B1-nhi%C3%AAn-trong-nh%C3%A0-b%E1%BA%BFp.jpg?s=612x612&w=0&k=20&c=SMpqSo2r41_N5bBebqxTzgDzugxcdntsl-gaRLm_UG0=",
+        "https://media.istockphoto.com/id/173889659/vi/anh/cu%E1%BB%99n-t%C3%BAi-r%C3%A1c.jpg?s=612x612&w=0&k=20&c=2DrYCBY5J0zFHAe6BZ3BuNDRiteIKUm0loiFg7clfeE=",
       combo: "Combo vệ sinh phòng (6 món)",
     },
     {
       id: 21,
       title: "Khăn tắm",
       category: "Giấy & Khăn giấy",
-      price: 0,
       description:
         "Khăn cotton mềm mịn, thấm hút tốt, kích thước tiêu chuẩn khách sạn",
       image:
-        "https://media.istockphoto.com/id/182172008/vi/anh/kh%C4%83n-t%E1%BA%AFm.jpg?s=612x612&w=0&k=20&c=bR87skATrcOPjAOPDIO5Yn4fvNG_l1huo7bFnlrLSWY=",
+        "https://media.istockphoto.com/id/1483917114/vi/anh/th%C3%A0nh-ph%E1%BA%A7n-ph%E1%BB%A5-ki%E1%BB%87n-spa-%C4%91%E1%BA%B7t-trong-kh%C3%A1ch-s%E1%BA%A1n-spa-ban-ng%C3%A0y-trung-t%C3%A2m-ch%C4%83m-s%C3%B3c-s%E1%BB%A9c-kh%E1%BB%8Fe-s%E1%BA%AFc-%C4%91%E1%BA%B9p.jpg?s=612x612&w=0&k=20&c=EObMfJphlITXfj2amNxmB2-QUmiN0WWeu1Igc0KUw8k=",
       combo: "Combo tiện ích bổ sung (4 món)",
     },
     {
       id: 22,
       title: "Khăn mặt",
       category: "Giấy & Khăn giấy",
-      price: 0,
       description:
         "Khăn cotton nhỏ gọn, dùng cho mặt, thấm hút tốt, dễ giặt và nhanh khô",
       image:
-        "https://media.istockphoto.com/id/2178059195/vi/anh/chai-phun-k%C3%ADch-ho%E1%BA%A1t-m%E1%BB%B9-ph%E1%BA%A9m-m%C3%A0u-n%C3%A2u-v%E1%BB%9Bi-mockup-nh%C3%A3n-tr%E1%BB%91ng.jpg?s=612x612&w=0&k=20&c=h9y5-Z6B3Ynpi1DIkHWEevVTtG5CJ_quYRdtOCPFtrc=",
+        "https://media.istockphoto.com/id/91002713/vi/anh/kh%C4%83n-trong-gi%E1%BB%8F.jpg?s=612x612&w=0&k=20&c=tNcOnG2s853rlcnrgjCqLsFoNPIGCa2JBN2ZqSDh15c=",
       combo: "Combo tiện ích bổ sung (4 món)",
     },
   ];
@@ -287,21 +265,12 @@ document.addEventListener("DOMContentLoaded", () => {
       const productCard = document.createElement("div");
       productCard.className = "product-card";
       productCard.innerHTML = `
-        <img src="${
-          product.image
-        }" onerror="this.onerror=null;this.src='https://placehold.co/400x400';" alt="${
-        product.title
-      }" class="product-image">
+        <img src="${product.image}" onerror="this.onerror=null;this.src='https://placehold.co/400x400';" alt="${product.title}" class="product-image">
         <div class="product-details">
           <h3 class="product-title">${product.title}</h3>
           <p class="product-description">${product.description}</p>
           <div class="price-and-btn">
-            <span class="product-price">${product.price.toLocaleString(
-              "vi-VN"
-            )} VNĐ</span>
-            <a href="contact.html" class="add-to-cart-btn" data-id="${
-              product.id
-            }">Liên hệ</a>
+            <a href="contact.html" class="add-to-cart-btn" data-id="${product.id}">Liên hệ</a>
           </div>
         </div>
       `;
@@ -548,4 +517,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   renderProducts(products);
+});
+document.querySelector(".hamburger").addEventListener("click", () => {
+  document.querySelector(".nav").classList.toggle("active");
 });

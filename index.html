@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
@@ -16,23 +16,18 @@
   </head>
   <body>
     <header class="header">
-      <div class="container header-content">
-        <!-- Center logo -->
+      <div class="container">
         <div class="logo">
-          <a href="index.html">
-            <img src="./img/logo.png" alt="Classic Fine Foods Logo" />
-          </a>
+          <a href="index.html"
+            ><img src="./img/logo.png" alt="Supplify Logo"
+          /></a>
         </div>
-
-        <!-- Right navigation -->
-        <nav class="main-nav">
-          <ul>
-            <li><a href="product_list.html">Sản phẩm</a></li>
-            <li><a href="contact.html">Liên hệ</a></li>
-            <li>
-              <button class="icon-btn" id="user-btn" aria-label="User"></button>
-            </li>
-          </ul>
+        <button class="hamburger" aria-label="Toggle Menu">☰</button>
+        <nav class="nav">
+          <a href="index.html">Trang chủ</a>
+          <a href="product_list.html">Cửa hàng</a>
+          <a href="contact.html">Liên hệ</a>
+          <a href="#" id="user-btn">Đăng nhập</a>
         </nav>
       </div>
     </header>
@@ -49,21 +44,22 @@
               >Supplify là nền tảng mua chung (group buying) kết hợp phân phối
               vật tư tiêu hao, giúp các cơ sở lưu trú vừa và nhỏ giảm chi phí
               vận hành và nâng cao vị thế mua hàng thông qua sức mạnh tập
-              thể</em
+              thể.</em
             >
           </p>
           <p>
-            <em>
-              Chúng tôi hướng đến xây dựng một hệ sinh thái hợp tác bền vững,
-              lan tỏa giá trị tích cực trong ngành du lịch – lưu trú Việt Nam.
-            </em>
+            <em
+              >Chúng tôi hướng đến xây dựng một hệ sinh thái hợp tác bền vững,
+              lan tỏa giá trị tích cực trong ngành du lịch – lưu trú Việt
+              Nam.</em
+            >
           </p>
-          <a href="#" class="btn btn-primary">KHÁM PHÁ NGAY</a>
+          <a href="product_list.html" class="btn btn-primary">KHÁM PHÁ NGAY</a>
         </div>
         <div class="hero-image">
           <img
             src="https://www.sportico.com/wp-content/uploads/2020/09/0911_IMG.jpg?w=1280&h=720&crop=1"
-            alt="Fine Foods Image"
+            alt="Supplify Hero Image"
           />
         </div>
       </div>
@@ -82,16 +78,14 @@
               alt="Image 2"
             />
           </div>
-
           <div class="column column-center">
             <div class="logo-wrapper">
-              <img src="./img/logo1.png" alt="Logo" />
+              <img src="./img/logo1.png" alt="Supplify Logo" />
             </div>
           </div>
-
           <div class="column column-right">
             <img
-              src="img/premium_photo-1678217547366-3156d075c867.avif"
+              src="./img/premium_photo-1678217547366-3156d075c867.avif"
               alt="Image 3"
             />
             <img
@@ -100,7 +94,6 @@
             />
           </div>
         </div>
-
         <div class="who-we-are-content">
           <h2 class="section-heading">CHÚNG TÔI LÀ AI</h2>
           <div class="content">
@@ -110,17 +103,17 @@
             amenities (vật tư tiêu hao) và housekeeping supplies (đồ dùng vệ
             sinh buồng phòng), giúp giải quyết các vấn đề tồn đọng trong ngành:
             chi phí cao, quy trình mua sắm rời rạc, thiếu minh bạch và khó kiểm
-            soát nguồn hàng
-            <br />
-            <br />Supplify không chỉ là nhà cung cấp, mà là một hệ sinh thái mua
-            sắm thông minh. Chúng tôi tận dụng công nghệ và sức mạnh cộng đồng
-            để tối ưu giá thành, chuẩn hóa chất lượng và đơn giản hóa toàn bộ
-            quy trình đặt hàng – quản lý kho – giao vận. Hợp tác với các nhà
-            cung cấp uy tín và ứng dụng giải pháp công nghệ, Supplify đảm bảo
-            nguồn hàng ổn định, giá cả minh bạch và vận hành hiệu quả – ngay cả
-            trong mùa cao điểm
+            soát nguồn hàng.
+            <br /><br />
+            Supplify không chỉ là nhà cung cấp, mà là một hệ sinh thái mua sắm
+            thông minh. Chúng tôi tận dụng công nghệ và sức mạnh cộng đồng để
+            tối ưu giá thành, chuẩn hóa chất lượng và đơn giản hóa toàn bộ quy
+            trình đặt hàng – quản lý kho – giao vận. Hợp tác với các nhà cung
+            cấp uy tín và ứng dụng giải pháp công nghệ, Supplify đảm bảo nguồn
+            hàng ổn định, giá cả minh bạch và vận hành hiệu quả – ngay cả trong
+            mùa cao điểm.
           </div>
-          <a href="#" class="btn btn-secondary">TÌM HIỂU THÊM</a>
+          <a href="contact.html" class="btn btn-secondary">TÌM HIỂU THÊM</a>
         </div>
       </div>
     </section>
@@ -133,7 +126,7 @@
             <div class="icon-circle">
               <img
                 src="https://cdn.prod.website-files.com/678e354bda67496650b3d256/678e354bda67496650b3d278_50.svg"
-                alt=""
+                alt="Diverse Products"
               />
             </div>
             <h3><em>Dải sản phẩm đa dạng</em></h3>
@@ -147,7 +140,7 @@
             <div class="icon-circle">
               <img
                 src="https://cdn.prod.website-files.com/678e354bda67496650b3d256/678e354bda67496650b3d278_50.svg"
-                alt=""
+                alt="Reliable Supply Chain"
               />
             </div>
             <h3><em>Chuỗi cung ứng tin cậy</em></h3>
@@ -169,55 +162,53 @@
             <div class="icon-circle">
               <img
                 src="https://cdn.prod.website-files.com/678e354bda67496650b3d256/678e354bda67496650b3d284_1.svg"
-                alt=""
+                alt="Cost Optimization"
               />
             </div>
             <h4>Tối ưu chi phí – Nâng cao vị thế</h4>
             <p>
               Supplify giúp các cơ sở lưu trú nhỏ tiết kiệm chi phí mua sắm nhờ
               sức mạnh tập thể (group buying), từ đó có được mức giá như các
-              chuỗi lớn, dù quy mô còn nhỏ lẻ
+              chuỗi lớn, dù quy mô còn nhỏ lẻ.
             </p>
           </div>
           <div class="value-card">
             <div class="icon-circle">
               <img
                 src="https://cdn.prod.website-files.com/678e354bda67496650b3d256/678e354bda67496650b3d267_2.svg"
-                alt=""
+                alt="Streamlined Operations"
               />
             </div>
             <h4>Tinh gọn vận hành – Công nghệ hỗ trợ</h4>
             <p>
               Ứng dụng công nghệ trong quản lý tồn kho, đặt hàng và giao nhận,
               Supplify giúp khách hàng đơn giản hóa quy trình, giảm thất thoát
-              và chủ động vận hành ngay cả trong mùa cao điểm
+              và chủ động vận hành ngay cả trong mùa cao điểm.
             </p>
           </div>
           <div class="value-card">
             <div class="icon-circle">
               <img
                 src="https://cdn.prod.website-files.com/678e354bda67496650b3d256/678e354bda67496650b3d263_3.svg"
-                alt=""
+                alt="Community Collaboration"
               />
             </div>
             <h4>Liên kết cộng đồng – Phát triển bền vững</h4>
             <p>
               Supplify không chỉ là nền tảng thương mại, mà còn xây dựng một
               mạng lưới hợp tác giữa các cơ sở lưu trú vừa và nhỏ, thúc đẩy văn
-              hóa chia sẻ, tiết kiệm tài nguyên và tiêu dùng xanh
+              hóa chia sẻ, tiết kiệm tài nguyên và tiêu dùng xanh.
             </p>
           </div>
         </div>
       </div>
-      <div class="background-text">iDuong</div>
+      <div class="background-text">Supplify</div>
     </section>
 
-    <section id="contact-section">
+    <section id="contact-section" class="contact-section">
       <div class="container">
         <h2 class="contact-heading">LIÊN HỆ SUPPLIFY TẠI ĐÀ NẴNG</h2>
-
         <div class="contact-cards-grid">
-          <!-- Da Nang -->
           <div class="contact-card">
             <h3><strong>ĐÀ NẴNG</strong> | <em>Văn phòng Đà Nẵng</em></h3>
             <p>
@@ -227,11 +218,10 @@
             <p><i class="fa-solid fa-phone"></i> +84 903523049</p>
             <p><i class="fa-solid fa-envelope"></i> hoquocloc2004@gmail.com</p>
           </div>
-
           <div class="map-google">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.7150793889023!2d108.22903339999999!3d16.080268399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421823807853c7%3A0x19452d0aaf9d505d!2zMTIzIMSQLiBUcuG6p24gSMawbmcgxJDhuqFvLCBTdCwgU8ahbiBUcsOgLCDEkMOgIE7hurVuZyA1NTAwMA!5e0!3m2!1svi!2s!4v1754573565718!5m2!1svi!2s"
-              width="640"
+              width="100%"
               height="450"
               style="border: 0"
               allowfullscreen=""
@@ -240,19 +230,16 @@
             ></iframe>
           </div>
         </div>
-        <!-- <div class="footer-cta">
-          <h3>CHÚNG TÔI SẴN SÀNG HỖ TRỢ NHU CẦU ẨM THỰC CỦA BẠN</h3>
-          <a href="#" class="btn btn-primary">LIÊN HỆ NGAY</a>
-        </div> -->
       </div>
     </section>
 
     <div class="modal" id="login-modal">
       <div class="login-container">
+        <button class="close-modal-btn" aria-label="Close Modal">×</button>
         <div class="logo">
-          <a href="#">
-            <img src="./img/logo.png" alt="Classic Fine Foods Logo" />
-          </a>
+          <a href="index.html"
+            ><img src="./img/logo.png" alt="Supplify Logo"
+          /></a>
         </div>
         <form class="login-form" id="loginForm">
           <div class="form-group">
@@ -262,6 +249,7 @@
               id="email"
               name="email"
               placeholder="ccf@example.com"
+              required
             />
           </div>
           <div class="form-group">
@@ -271,6 +259,7 @@
               id="password"
               name="password"
               placeholder="Nhập mật khẩu của bạn"
+              required
             />
             <a href="#" class="forgot-password">Quên mật khẩu?</a>
           </div>
@@ -282,20 +271,29 @@
       </div>
     </div>
 
+    <div class="cart-panel" id="cart-panel">
+      <div class="cart-content">
+        <button class="close-modal-btn" aria-label="Close Cart">×</button>
+        <h2>Giỏ hàng</h2>
+        <div class="cart-items"></div>
+        <div class="cart-total"></div>
+        <a href="contact.html" class="btn btn-primary" style="margin-top: 20px"
+          >Liên hệ để đặt hàng</a
+        >
+      </div>
+    </div>
+
     <footer class="footer">
       <div class="footer-inner">
         <div class="logo">
-          <img src="./img/logo.png" alt="Classic Fine Foods Logo" />
-          <p class="footer-subtitle">SUPPLIFY</p>
+          <img src="./img/logo.png" alt="Supplify Logo" />
         </div>
-
         <ul class="footer-nav">
-          <li><a href="#">Sản phẩm</a></li>
-          <li><a href="#">Liên hệ</a></li>
+          <li><a href="product_list.html">Sản phẩm</a></li>
+          <li><a href="contact.html">Liên hệ</a></li>
         </ul>
-
         <div class="footer-bottom">
-          <a href="#">iDuong - 31-07-2025</a>
+          <a href="#">Supplify - 31-07-2025</a>
         </div>
       </div>
     </footer>
