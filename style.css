@@ -699,7 +699,6 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  flex: 1;
 }
 
 .column-center {
@@ -717,7 +716,7 @@ ul {
 
 .logo-wrapper img {
   width: 100%;
-  max-width: 150px; /* Smaller logo for consistency */
+  max-width: 150px;
   height: auto;
   object-fit: contain;
 }
